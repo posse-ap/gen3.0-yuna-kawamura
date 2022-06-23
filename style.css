@@ -1,0 +1,162 @@
+body {
+  font-family: sans-serif;
+}
+
+.keyVisual {
+  text-align: center;
+}
+.headerInner {
+  height: 250px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  background: #eeeeee;
+}
+.footerInner {
+  text-align: center;
+  margin-top: 50px;
+  padding: 30px;
+}
+.headerInner,
+.mainInner {
+  max-width: 650px;
+  margin: auto;
+  padding: 0 20px;
+}
+.priceWrapper table,
+.priceWrapper th,
+.priceWrapper td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+.priceWrapper th,
+.priceWrapper td {
+  padding: 7px;
+}
+.priceWrapper table {
+  width: 100%;
+}
+.priceWrapper th {
+  width: 150px;
+  background: #eee;
+}
+h2 {
+  background-image: url(niconico_bg_blue.png);
+  line-height: 50px;
+  padding: 0 15px;
+  color: #fff;
+  text-align: center;
+}
+.aboutWrapper img {
+  float: left;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.aboutWrapper img {
+  float: left;
+  margin-right: 10px;
+}
+
+.contactButton {
+  display: inline-block;
+  background: #9b4dca;
+  color: #fff;
+  text-decoration: none;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 5px;
+  margin: auto;
+  box-shadow: 0 0 3px #000;
+  text-align: center;
+  transition: 700ms;
+}
+
+.hover a:hover {
+  background: orange;
+}
+
+main h1 {
+  text-align: center;
+}
+
+.contactForm {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto 20px;
+  border-spacing: 0;
+}
+
+.contactForm th,
+.contactForm td {
+  padding: 2rem 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+.contactForm th {
+  text-align: left;
+  color: #606c76;
+}
+
+input[type="text"],
+textarea {
+  background-color: transparent;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  box-shadow: none;
+  box-sizing: border-box;
+  min-height: 1rem;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+
+input[type="text"]::placeholder {
+  color: #aaa;
+  transition: 300ms;
+}
+input[type="text"]:focus,
+textarea:focus {
+  border-color: #41487e;
+  outline: 0;
+}
+input[type="text"]:focus::placeholder {
+  transition: translateX(30px);
+  opacity: 0;
+}
+
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"] + label {
+  padding-left: 20px;
+  margin-right: 20px;
+  position: relative;
+}
+input[type="radio"] + label:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #999;
+  border-radius: 50%;
+}
+
+input[tipe="checkbox"] {
+  display: none;
+}
+input[type="checkbox"]+label{
+  padding-left: 25px;
+  position: relative;
+}
+input[]
