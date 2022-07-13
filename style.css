@@ -12,6 +12,11 @@
 
   margin: 0 auto;
   padding: 0 4%;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background: #ffffff;
+
 }
 
 a {
@@ -73,28 +78,300 @@ a {
   top: 7px;
 }
 
-
-
+.section1-wrapper {
+  width: 100%;
+  height: 680px;
+}
 
 .main-content {
-  position: absolute;
+  width: 100%;
+  height: 689px;
+  position: relative;
+  width: 100%;
 
 }
 
 .photo {
-  position: relative;
-  right: 0px;
+  position: absolute;
+  right:0 ;
   top: 0px;
-  width: 976px;
-  height: 680px;
-  border-radius: 80px 0px 80px 0px ;
+  width:70% ;
+  /* height: 680px; */
+  border-radius: 80px 0px 0px 80px;
   z-index: 1;
 }
-.section-wrapper{
-  position: relative;
+.text-wrapper {
+  position: absolute;
+  /* left: 80px; */
+  top: 298px;
   width: 500px;
   height: 281px;
-background: #eff2f5;
-border-radius: 24px;
-z-index: 2;
+  background: #eff2f5;
+  border-radius: 24px;
+  z-index: 2;
 }
+.section-text1 {
+  margin: auto;
+  padding: 40px 62px 0px 62px;
+  font-family: Noto Sans JP;
+  font-weight: 700;
+  line-height: 180%;
+  font-style: normal;
+  font-size: 16px;
+  color: #0071bc;
+}
+.section-text2 {
+  width: 375px;
+  height: 160px;
+  margin: auto;
+  padding: 15px 60px 40px 55px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80px;
+  letter-spacing: 0.04em;
+  color: #333333;
+}
+
+.section-scrolldown{
+  margin: 86px 250px 14px 42px;
+}
+.section-scrolldown::before {
+  background-color: #ccc;
+  border-radius: 8px;
+  content: "";
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+}
+
+
+.section2-wrapper{
+width: 100%;
+margin: 0 auto;
+text-align: center;
+font-family: 'Noto Sans JP';
+
+}
+.section2-wrapper h1 {
+  font-size: 36px;
+  
+}
+
+.section2-wrapper-p{
+  font-size: 14px;
+  color: #0071BC;
+  
+}
+
+.section2-colum{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  height: 287px;
+}
+.section2-colum img{
+  width: 472px;
+  height: 287px;
+  border-radius: 24px;
+  margin-bottom:140px ;
+}
+.section2-colum p{
+  width: 472px;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 25.2px;
+  align-self: center;
+}
+
+.section3-wrapper{
+  text-align: center;
+  background-image:url(/gen3.0-yuna-kawamura/1-6_image/bg-line.jpg);
+  background-size: cover;
+  border-radius:  48px ;
+  margin:140px auto;
+  display: flex;
+  justify-content: center;
+  width:984px ;
+  height: 358px;
+  position: relative;
+}
+.section3-wrapper::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,113,188,0.9);
+  border-radius: 48px;
+}
+.section3-wrapper h2{
+  font-family: 'Noto Sans JP';
+  font-size: 36px;
+  color: #ffffff;
+  position: absolute;
+  top: 40px;
+  right: 328px;
+  left:375px ;
+}
+.section3-wrapper img{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top:75px ;
+  bottom: 236px;
+  left: 327px;
+  /* background-color: #FFFFFF; */
+}
+.section3-img-back{
+  width: 40px;
+  background-color: #FFFFFF;
+}
+.section3-wrapper p{
+  width: 535px;
+  font-family: 'Noto Sans JP';
+  font-size: 14px;
+  line-height: 160%;
+  color: #ffffff;
+  position: absolute;
+  top: 140px;
+}
+.section3-line{
+  width:320px ;
+  height: 50px;
+  border-radius: 98px;
+  background-color: #ffffff;
+  position: absolute;
+  top:260px ;
+  left: 335px;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
+.section3-line p{
+  font-family: 'Noto Sans JP';
+  font-size: 14px;
+  color: #666666;
+  position: absolute;
+  top: 1px;
+}
+.section3-line img{
+  display: inline-block;
+  width: 14px;
+  position: absolute;
+  top: 6px;
+  left: 287px;
+  color: #666666
+  
+}
+
+
+.footer {
+  width: 100%;
+  height: 261px;
+  margin: 80px 0px 0px 0px;
+  padding: 56px 0px 0px 0px;
+  border: 1px solid;
+  border-right: transparent;
+  border-left: transparent;
+  border-color: #EEEEEE;
+
+}
+.footer-logo {
+  text-align: center;
+}
+.footer-logo img{
+  width: 202px;
+}
+.footer-link {
+  width: 118px;
+  height: 25px;
+  margin: 0 auto;
+  padding: 15px 0 40px 0;
+}
+.footer-posselink {
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+}
+.footer-icon {
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-twitter {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid#eeeeee;
+}
+
+.footer-twitter-img{
+  padding: 15px 0 0 0;
+}
+
+.footer-insta{
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid#eeeeee;
+
+}
+
+.footer-insta-img{
+  padding: 12.5px 0px 0px 0px;
+}
+
+.copyright{
+  color: #666666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:65px;
+  letter-spacing: 0.4em;}
+
+  .POSSELINE{
+    display: flex;
+    width: 288px;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(95,223,91,1);
+    border-radius:16px ;
+    margin-left: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+
+  }
+  .POSSELINE-img-back{
+    background-color: #FFFFFF;
+    height:30px ;
+    border-radius: 16px;
+    }
+    
+  
+  .POSSELINE-LINEicon{
+    width: 36px;
+    margin-top: -5px;
+  }
+  .POSSELINE p{
+    color:#FFFFFF ;
+    font-family: 'Noto Sans JP';
+    font-size: 14px;
+    z-index: 10;
+  }
+  .POSSELINE-img{
+    color: #FFFFFF;
+  }
